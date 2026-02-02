@@ -77,7 +77,7 @@ function renderAllProducts() {
 
     category.items.forEach(p => {
       grid.innerHTML += `
-      <a href="${p.link}" class="block group">
+      <a href="/product-description.html?id=${p.id}" class="block group">
         <div class="group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 hover:-translate-y-1">
           <div class="relative aspect-[4/3] overflow-hidden bg-gray-100">
             <img src="${p.image}" alt="${p.name}"
