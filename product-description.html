@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- ================= TAILWIND ================= -->
-  <script data-src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -31,10 +31,10 @@
   </script>
 
   <!-- Material Icons -->
-  <link data-src="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link src="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
   <!-- Your existing CSS -->
-  <link rel="stylesheet" data-src="${BASE_PATH}/assets/css/global.css">
+  <link rel="stylesheet" src="${BASE_PATH}/assets/css/global.css">
 </head>
 
 <body class="bg-slate-50 text-slate-600 font-sans antialiased">
@@ -47,13 +47,13 @@
  <!-- ================= BREADCRUMB ================= -->
     <div class="bg-white border-b">
       <div class="max-w-7xl mx-auto px-4 py-4 text-sm">
-        <a data-src="products.html" class="text-brand-600 font-semibold hover:underline">
+        <a src="products.html" class="text-brand-600 font-semibold hover:underline">
           Products
         </a>
 
         <span class="mx-2">/</span>
 
-        <a id="breadcrumb-category" data-src="#" class="text-brand-600 font-semibold hover:underline">
+        <a id="breadcrumb-category" src="#" class="text-brand-600 font-semibold hover:underline">
           Category
         </a>
 
@@ -95,13 +95,13 @@
 
           <!-- CTA -->
           <div class="flex flex-col sm:flex-row gap-4 mt-4">
-            <a data-src="contact.html" class="inline-flex h-14 items-center justify-center rounded-full
+            <a src="contact.html" class="inline-flex h-14 items-center justify-center rounded-full
                     bg-accent px-10 text-white font-bold
                     transition hover:bg-accent-hover hover:scale-105">
               Enquire Now
             </a>
 
-           <!-- <a data-src="products.html" class="inline-flex h-14 items-center justify-center rounded-full
+           <!-- <a src="products.html" class="inline-flex h-14 items-center justify-center rounded-full
                     border border-slate-300 px-10 font-bold text-slate-700
                     transition hover:bg-slate-100">
               Back to Products
@@ -164,7 +164,7 @@
         <div class="flex flex-col gap-6">
           <div class="flex items-center gap-3 text-white">
             <div class="flex size-9 items-center justify-center rounded-full bg-white text-white">
-              <img data-src="assets/images/logo.png" alt="logo" class="w-30 h-30">
+              <img src="assets/images/logo.png" alt="logo" class="w-30 h-30">
             </div>
             <h2 class="text-white text-xl font-bold">KHYATI OVERSEAS</h2>
           </div>
@@ -174,11 +174,11 @@
           </p>
           <div class="flex gap-4">
             <a class="flex size-10 items-center justify-center rounded-full bg-slate-800 text-white transition hover:bg-brand-600 hover:text-white border border-slate-700 hover:border-brand-600"
-              data-src="#">
+              src="#">
               <span class="material-symbols-outlined text-[20px]">mail</span>
             </a>
             <a class="flex size-10 items-center justify-center rounded-full bg-slate-800 text-white transition hover:bg-brand-600 hover:text-white border border-slate-700 hover:border-brand-600"
-              data-src="#">
+              src="#">
               <span class="material-symbols-outlined text-[20px]">call</span>
             </a>
           </div>
@@ -186,15 +186,15 @@
         <div class="flex flex-col gap-5">
           <h3 class="text-lg font-bold text-white">Quick Links</h3>
           <ul class="flex flex-col gap-3">
-            <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors" data-src="index.html">Home</a>
+            <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors" src="index.html">Home</a>
             </li>
-            <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors" data-src="about.html">About
+            <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors" src="about.html">About
                 Us</a></li>
             <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors"
-                data-src="services.html">Services</a></li>
+                src="services.html">Services</a></li>
             <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors"
-                data-src="products.html">Products</a></li>
-            <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors" data-src="contact.html">Contact</a>
+                src="products.html">Products</a></li>
+            <li><a class="text-sm text-slate-500 hover:text-brand-500 transition-colors" src="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -226,16 +226,14 @@
           © 2026 KHYATI OVERSEAS. All rights reserved.
         </p>
         <div class="flex gap-6 text-sm text-slate-500">
-          <a class="hover:text-white transition-colors" data-src="#">Privacy Policy</a>
-          <a class="hover:text-white transition-colors" data-src="#">Terms of Service</a>
+          <a class="hover:text-white transition-colors" src="#">Privacy Policy</a>
+          <a class="hover:text-white transition-colors" src="#">Terms of Service</a>
         </div>
       </div>
     </div>
   </footer>
-  <script data-src="/khyati/assets/js/config.js"></script>
-  <script data-src="/khyati/assets/js/path-helper.js"></script>
-  <script data-src="assets/js/main.js"></script>
-  <script data-src="assets/js/products-data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products-data.js"></script>
 
 <!-- ================= BREADCRUMB SCRIPTS ================= -->
   <script>
@@ -284,7 +282,7 @@
 
         card.innerHTML = `
       <div class="aspect-square overflow-hidden">
-        <img data-src="${p.image}"
+        <img src="${p.image}"
              alt="${p.name}"
              class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
       </div>
@@ -341,7 +339,7 @@
 
     // 5. Inject product data
     document.getElementById("product-name").textContent = product.name;
-    document.getElementById("product-image").setAttribute("data-src", product.image);
+    document.getElementById("product-image").setAttribute("src", product.image);
     document.getElementById("product-image").alt = product.name;
 
     document.getElementById("product-description").textContent = product.description;

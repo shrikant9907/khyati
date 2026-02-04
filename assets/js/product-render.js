@@ -9,12 +9,12 @@ function renderProducts(categoryKey) {
 
   category.items.forEach(p => {
     grid.innerHTML += `
-    <a href="${BASE_PATH}/product-description.html?id=${p.id}" class="block group">
+    <a href="/product-description.html?id=${p.id}" class="block group">
 
       <div class="group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 border border-gray-100 hover:border-brand-600/30 transform hover:-translate-y-1">
 
         <div class="relative w-full aspect-[4/3] overflow-hidden bg-gray-100">
-          <img src="${BASE_PATH}/${p.image}" alt="${p.name}"
+          <img src="${p.image}" alt="${p.name}"
             class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
           ${p.tag ? `
             <div class="absolute top-4 left-4">
@@ -77,10 +77,10 @@ function renderAllProducts() {
 
     category.items.forEach(p => {
       grid.innerHTML += `
-      <a data-link="${BASE_PATH}/product-description.html?id=${p.id}" class="block group">
+      <a href="/product-description.html?id=${p.id}" class="block group">
         <div class="group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-gray-100 hover:-translate-y-1">
           <div class="relative aspect-[4/3] overflow-hidden bg-gray-100">
-            <img data-src="${BASE_PATH}/${p.image}" alt="${p.name}"
+            <img src="${p.image}" alt="${p.name}"
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           </div>
 
