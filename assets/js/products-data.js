@@ -8,7 +8,7 @@ const PRODUCTS = {
       {
         id: "pigeon-peas",
         name: "Pigeon Peas (Toor Dal)",
-        image: "../../assets/images/Photo/Agricultural/Pulses/Pigeon Peas.png",
+        image: "assets/images/Photo/Agricultural/Pulses/Pigeon-Peas.png",
         origin: "India",
         moq: "100kg",
         packaging: "25kg / 50kg PP Bags",
@@ -35,7 +35,7 @@ const PRODUCTS = {
           "Purity: 99% Clean",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Pulses/Split Chickpeas.png",
+        image: "assets/images/Photo/Agricultural/Pulses/Split-Chickpeas.png",
         para: "Kabuli chickpeas are rich in protein and fiber and are commonly used in curries, salads, snacks, and flour-based food products.",
       },
 
@@ -51,7 +51,7 @@ const PRODUCTS = {
           "Purity: 99% Clean",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Pulses/Lentils.png",
+        image: "assets/images/Photo/Agricultural/Pulses/Lentils.png",
         para: "Masoor Dal is commonly used in soups, stews, and curries, making it a popular choice in both domestic and international markets.",
       },
 
@@ -69,7 +69,7 @@ const PRODUCTS = {
           "Purity: 99% Clean",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Pulses/Green Gram.png"
+        image: "assets/images/Photo/Agricultural/Pulses/Green-Gram.png"
       },
 
       {
@@ -85,7 +85,7 @@ const PRODUCTS = {
           "Purity: 99% Clean",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Pulses/Black Matpe.png"
+        image: "assets/images/Photo/Agricultural/Pulses/Black Matpe.png"
       }
     ]
   },
@@ -107,7 +107,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Wheat/lokwan-wheat.jpg"
+        image: "assets/images/Photo/Agricultural/Wheat/lokwan-wheat.jpg"
       },
 
       {
@@ -123,7 +123,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Wheat/MP Sharbati Wheat.webp"
+        image: "assets/images/Photo/Agricultural/Wheat/MP Sharbati Wheat.webp"
       }
     ]
   },
@@ -145,7 +145,7 @@ const PRODUCTS = {
           "Moisture: ≤ 14%",
           "Broken Grains: ≤ 2%",
           "Shelf Life: 24 Months"],
-        image: "../../assets/images/Photo/Agricultural/Rice/1121 Basmati Rice.jpg"
+        image: "assets/images/Photo/Agricultural/Rice/1121-Basmati-Rice.jpg"
       },
 
       {
@@ -161,7 +161,7 @@ const PRODUCTS = {
           "Moisture: ≤ 14%",
           "Broken Grains: ≤ 2%",
           "Shelf Life: 24 Months"],
-        image: "../../assets/images/Photo/Agricultural/Rice/1509 basmati sella rice.jpg"
+        image: "assets/images/Photo/Agricultural/Rice/1509-basmati-sella-rice.jpg"
       },
 
       {
@@ -177,7 +177,7 @@ const PRODUCTS = {
           "Moisture: ≤ 14%",
           "Broken Grains: ≤ 2%",
           "Shelf Life: 24 Months"],
-        image: "../../assets/images/Photo/Agricultural/Rice/Organic Pusa Basmati Parboiled Rice.jpg"
+        image: "assets/images/Photo/Agricultural/Rice/Organic-Pusa-Basmati-Parboiled-Rice.jpg"
       },
 
       {
@@ -193,7 +193,7 @@ const PRODUCTS = {
           "Moisture: ≤ 14%",
           "Broken Grains: ≤ 2%",
           "Shelf Life: 24 Months"],
-        image: "../../assets/images/Photo/Agricultural/Rice/Sella Basmati.webp"
+        image: "assets/images/Photo/Agricultural/Rice/Sella-Basmati.webp"
       },
 
       {
@@ -209,7 +209,7 @@ const PRODUCTS = {
           "Moisture: ≤ 14%",
           "Broken Grains: ≤ 5%",
           "Shelf Life: 18 Months"],
-        image: "../../assets/images/Photo/Agricultural/Rice/IR64 (Non-Basmati).jpg"
+        image: "assets/images/Photo/Agricultural/Rice/IR64-(Non-Basmati).jpg"
       },
 
       {
@@ -225,7 +225,7 @@ const PRODUCTS = {
           "Moisture: ≤ 14%",
           "Broken Grains: ≤ 5%",
           "Shelf Life: 18 Months"],
-        image: "../../assets/images/Photo/Agricultural/Rice/Parboiled Rice.jpg"
+        image: "assets/images/Photo/Agricultural/Rice/Parboiled-Rice.jpg"
       }
     ]
   },
@@ -247,7 +247,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Maize/Yellow Maize.jpg"
+        image: "assets/images/Photo/Agricultural/Maize/Yellow Maize.jpg"
       }
     ]
   },
@@ -269,7 +269,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Barley/Barley.jfif"
+        image: "assets/images/Photo/Agricultural/Barley/Barley.jfif"
       }
     ]
   },
@@ -291,7 +291,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Millets/Pearl Millet (Bajra).png"
+        image: "assets/images/Photo/Agricultural/Millets/Pearl-Millet-(Bajra).png"
       },
 
       {
@@ -307,7 +307,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Millets/Sorghum (Jowar).png"
+        image: "assets/images/Photo/Agricultural/Millets/Sorghum-(Jowar).png"
       },
 
       {
@@ -323,7 +323,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Millets/Finger Millet (Ragi).jpg"
+        image: "assets/images/Photo/Agricultural/Millets/Finger-Millet-(Ragi).jpg"
       },
 
       {
@@ -339,7 +339,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Millets/Foxtail Millet.webp"
+        image: "assets/images/Photo/Agricultural/Millets/Foxtail-Millet.webp"
       },
 
       {
@@ -355,7 +355,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Millets/Little Millet.webp"
+        image: "assets/images/Photo/Agricultural/Millets/Little-Millet.webp"
       }
     ]
   },
@@ -378,7 +378,7 @@ const PRODUCTS = {
           "Purity: 99% Clean",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Beans/Chick Peas.png"
+        image: "assets/images/Photo/Agricultural/Beans/Chick-Peas.png"
       },
 
       {
@@ -394,7 +394,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Agricultural/Beans/kidney beans.png"
+        image: "assets/images/Photo/Agricultural/Beans/kidney-beans.png"
       }
     ]
   },
@@ -418,7 +418,7 @@ const PRODUCTS = {
           "Shelf Life: 2–3 Months",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/Vegetables/Onions.jpg"
+        image: "assets/images/Photo/Agricultural/Vegetables/Onions.jpg"
       },
 
       {
@@ -436,7 +436,7 @@ const PRODUCTS = {
           "Shelf Life: 3–4 Months",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/Vegetables/Garlic.jpg"
+        image: "assets/images/Photo/Agricultural/Vegetables/Garlic.jpg"
       },
 
       {
@@ -454,7 +454,7 @@ const PRODUCTS = {
           "Shelf Life: 2–3 Months",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/Vegetables/Ginger.jpeg"
+        image: "assets/images/Photo/Agricultural/Vegetables/Ginger.jpeg"
       },
 
       {
@@ -472,7 +472,7 @@ const PRODUCTS = {
           "Shelf Life: 2–3 Months",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/Vegetables/potato.jpeg"
+        image: "assets/images/Photo/Agricultural/Vegetables/potato.jpeg"
       },
 
       {
@@ -490,7 +490,7 @@ const PRODUCTS = {
           "Shelf Life: 2–3 Weeks",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/Vegetables/Green Chilli.jpg"
+        image: "assets/images/Photo/Agricultural/Vegetables/Green-Chilli.jpg"
       }
     ]
   },
@@ -514,7 +514,7 @@ const PRODUCTS = {
           "Shelf Life: 6 Months",
           "Quality: Chemical-Free"
         ],
-        image: "../../assets/images/Photo/Agricultural/others/Jaggery.JPG"
+        image: "assets/images/Photo/Agricultural/others/Jaggery.JPG"
       },
 
       {
@@ -532,7 +532,7 @@ const PRODUCTS = {
           "Shelf Life: 12 Months",
           "Quality: Premium Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/others/Fox Nuts (Makhana).jpg"
+        image: "assets/images/Photo/Agricultural/others/Fox-Nuts-(Makhana).jpg"
       },
 
       {
@@ -550,7 +550,7 @@ const PRODUCTS = {
           "Shelf Life: 24 Months",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/others/Nutmeg.jpg"
+        image: "assets/images/Photo/Agricultural/others/Nutmeg.jpg"
       },
 
       {
@@ -568,7 +568,7 @@ const PRODUCTS = {
           "Shelf Life: 24 Months",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/others/honey.jpg"
+        image: "assets/images/Photo/Agricultural/others/honey.jpg"
       },
 
       {
@@ -586,7 +586,7 @@ const PRODUCTS = {
           "Shelf Life: 24 Months",
           "Quality: Industrial / Food Grade"
         ],
-        image: "../../assets/images/Photo/Agricultural/others/guar gum powder.webp"
+        image: "assets/images/Photo/Agricultural/others/guar-gum-powder.webp"
       },
 
       {
@@ -604,7 +604,7 @@ const PRODUCTS = {
           "Shelf Life: 6 Months",
           "Quality: Organic"
         ],
-        image: "../../assets/images/Photo/Agricultural/others/Cow Dung Manure.jpg"
+        image: "assets/images/Photo/Agricultural/others/Cow-Dung-Manure.jpg"
       }
     ]
   },
@@ -630,7 +630,7 @@ const PRODUCTS = {
           "Bulk Density: 550–600 g/L",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Black Pepper/Black Pepper.png"
+        image: "assets/images/Photo/Spices/Black Pepper/Black-Pepper.png"
       },
 
       {
@@ -648,7 +648,7 @@ const PRODUCTS = {
           "Oil Content: High",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Cardamom/close-up-of-many-cardamom-on-table_5138838.jpg"
+        image: "assets/images/Photo/Spices/Cardamom/close-up-of-many-cardamom-on-table_5138838.jpg"
       },
 
       {
@@ -666,7 +666,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Clove/cloves-in-plate-isolated-on-white-background_2902334.jpg"
+        image: "assets/images/Photo/Spices/Clove/cloves-in-plate-isolated-on-white-background_2902334.jpg"
       },
 
       {
@@ -684,7 +684,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Turmeric/turmeric1.jpg"
+        image: "assets/images/Photo/Spices/Turmeric/turmeric1.jpg"
       },
 
       {
@@ -702,7 +702,7 @@ const PRODUCTS = {
           "Oil Content: High",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Coriander Seeds/Coriander Seeds.jpg"
+        image: "assets/images/Photo/Spices/Coriander Seeds/Coriander-Seeds.jpg"
       },
 
       {
@@ -720,7 +720,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Cinnamon/cinnamon.jpg"
+        image: "assets/images/Photo/Spices/Cinnamon/cinnamon.jpg"
       },
 
       {
@@ -738,7 +738,7 @@ const PRODUCTS = {
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Fenugreek/Fenugreek.jpg"
+        image: "assets/images/Photo/Spices/Fenugreek/Fenugreek.jpg"
       },
 
       {
@@ -756,7 +756,7 @@ const PRODUCTS = {
           "Oil Content: High",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Fennel Seeds/full-frame-shot-plants.jpg"
+        image: "assets/images/Photo/Spices/Fennel Seeds/full-frame-shot-plants.jpg"
       },
 
       {
@@ -774,7 +774,7 @@ const PRODUCTS = {
           "Oil Content: High",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Cumin Seeds/background-texture-dried-cumin-seeds.jpg"
+        image: "assets/images/Photo/Spices/Cumin Seeds/background-texture-dried-cumin-seeds.jpg"
       },
 
       {
@@ -792,7 +792,7 @@ const PRODUCTS = {
           "Pungency: High",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Dry Chilies/dried-red-chilli-background.jpg"
+        image: "assets/images/Photo/Spices/Dry Chilies/dried-red-chilli-background.jpg"
       },
 
       {
@@ -810,7 +810,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Spices/Bay Leaves/high-angle-view-bay-leaves.jpg"
+        image: "assets/images/Photo/Spices/Bay Leaves/high-angle-view-bay-leaves.jpg"
       }
     ]
   },
@@ -835,7 +835,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Henna_leafs.jpg", link: ""
+        image: "assets/images/Photo/Herbal Products/Henna_leafs.jpg", link: ""
       },
 
       {
@@ -853,7 +853,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/neem_leafs.jpg"
+        image: "assets/images/Photo/Herbal Products/neem_leafs.jpg"
       },
 
       {
@@ -871,7 +871,7 @@ const PRODUCTS = {
           "Foreign Matter: ≤ 1%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/tulsi_leafs.png"
+        image: "assets/images/Photo/Herbal Products/tulsi_leafs.png"
       },
 
       {
@@ -889,7 +889,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Moringa_Leafs.png"
+        image: "assets/images/Photo/Herbal Products/Moringa_Leafs.png"
       },
 
       {
@@ -907,7 +907,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Curry_leafs.png"
+        image: "assets/images/Photo/Herbal Products/Curry_leafs.png"
       },
 
       {
@@ -925,7 +925,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Mint_leafs.png"
+        image: "assets/images/Photo/Herbal Products/Mint_leafs.png"
       },
     ]
   },
@@ -948,7 +948,7 @@ const PRODUCTS = {
           "Color: Natural Blue",
           "Purity: 99%",
           "Shelf Life: 12 Months"],
-        image: "../../assets/images/Photo/Herbal Products/Aparajita.png"
+        image: "assets/images/Photo/Herbal Products/Aparajita.png"
       },
       {
         id: "hibiscus",
@@ -965,7 +965,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Hibiscus.png"
+        image: "assets/images/Photo/Herbal Products/Hibiscus.png"
       },
 
       {
@@ -983,7 +983,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Marigold.png"
+        image: "assets/images/Photo/Herbal Products/Marigold.png"
       },
 
       {
@@ -1001,7 +1001,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/roses.png"
+        image: "assets/images/Photo/Herbal Products/roses.png"
       },
     ]
   },
@@ -1025,7 +1025,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/neem_sticks.png"
+        image: "assets/images/Photo/Herbal Products/neem_sticks.png"
       },
 
       {
@@ -1043,7 +1043,7 @@ const PRODUCTS = {
           "Freshness: High",
           "Shelf Life: 2–3 Weeks"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Drumsticks.png"
+        image: "assets/images/Photo/Herbal Products/Drumsticks.png"
       },
 
       {
@@ -1061,7 +1061,7 @@ const PRODUCTS = {
           "Purity: 99%",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Licorices (Mulethi).png"
+        image: "assets/images/Photo/Herbal Products/Licorices-(Mulethi).png"
       },
     ]
   },
@@ -1085,7 +1085,7 @@ const PRODUCTS = {
           "Shelf Life: 6 Months",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Indian Gooseberries.png"
+        image: "assets/images/Photo/Herbal Products/Indian-Gooseberries.png"
       },
 
       {
@@ -1103,7 +1103,7 @@ const PRODUCTS = {
           "Active Content: High",
           "Shelf Life: 12 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Gilloy.png"
+        image: "assets/images/Photo/Herbal Products/Gilloy.png"
       },
 
       {
@@ -1121,7 +1121,7 @@ const PRODUCTS = {
           "Withanolides: High",
           "Shelf Life: 24 Months"
         ],
-        image: "../../assets/images/Photo/Herbal Products/Ashwagandha.png"
+        image: "assets/images/Photo/Herbal Products/Ashwagandha.png"
       },
     ]
 
@@ -1147,7 +1147,7 @@ const PRODUCTS = {
           "Finish: Polished",
           "Quality: Ritual Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/Dakshinavarti_shankh.png"
+        image: "assets/images/Photo/Religious Products/Dakshinavarti_shankh.png"
       },
 
       {
@@ -1164,7 +1164,7 @@ const PRODUCTS = {
           "Usage: Ritual & Ceremonial",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/Conch_Shell.png"
+        image: "assets/images/Photo/Religious Products/Conch_Shell.png"
       },
 
       {
@@ -1181,7 +1181,7 @@ const PRODUCTS = {
           "Finish: Gloss / Matte",
           "Usage: Worship & Decor"
         ],
-        image: "../../assets/images/Photo/Religious Products/Photo_frames.jpg"
+        image: "assets/images/Photo/Religious Products/Photo_frames.jpg"
       },
 
       {
@@ -1198,7 +1198,7 @@ const PRODUCTS = {
           "Usage: Worship",
           "Quality: Premium Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/Divine_Statues.jpg"
+        image: "assets/images/Photo/Religious Products/Divine_Statues.jpg"
       },
 
       {
@@ -1215,7 +1215,7 @@ const PRODUCTS = {
           "Durability: Long Lasting",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/Marble Statues.png"
+        image: "assets/images/Photo/Religious Products/Marble-Statues.png"
       },
       {
         id: "Religious-decor-items",
@@ -1231,7 +1231,7 @@ const PRODUCTS = {
           "Usage: Worship & Decor",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/Pooja Decorative Items.png"
+        image: "assets/images/Photo/Religious Products/Pooja-Decorative-Items.png"
       },
 
       {
@@ -1248,7 +1248,7 @@ const PRODUCTS = {
           "Usage: Spiritual",
           "Quality: Premium Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/gemstones.png"
+        image: "assets/images/Photo/Religious Products/gemstones.png"
       },
 
       {
@@ -1265,7 +1265,7 @@ const PRODUCTS = {
           "Usage: Meditation",
           "Quality: Export Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/beads.png"
+        image: "assets/images/Photo/Religious Products/beads.png"
       },
 
       {
@@ -1282,7 +1282,7 @@ const PRODUCTS = {
           "Usage: Religious & Ritual",
           "Quality: Traditional Grade"
         ],
-        image: "../../assets/images/Photo/Religious Products/Cow dung cake.png"
+        image: "assets/images/Photo/Religious Products/Cow-dung-cake.png"
       },
     ]
   },
